@@ -66,19 +66,23 @@ struct ContentView: View {
                     .padding(.horizontal, 22)
                     .background(Color.green)
                 
-            }
-            
-            Button(action: {
-                //
-            }) {
-                Image(systemName: "heart")
-                    .renderingMode(.original)
-                    .padding(18)
-            }
+                
+                Button(action: {
+                    //
+                }) {
+                    Image(systemName: "heart")
+                        .renderingMode(.original)
+                        .padding(18)
+                }
                 .background(Color.yellow)
                 .clipShape(Circle())
                 .offset(y: -32)
                 .shadow(radius: 5)
+                
+            }
+            
+            
+                
         }
     }
 }
